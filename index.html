@@ -13,11 +13,16 @@
     <p id="description">This is a Survey Form</p>
     <form id="survey-form" >
       <label id="name-label" for="name">Name</label>
-      <input id="name" required/>
+      <input id="name" required placeholder="enter the name"/>
       <label id="email-label" for="email">Email</label>
-      <input type="email" id="email" required/>
+      <input type="email" id="email" required placeholder="enter the email"/>
       <label id="number-label" for="number">Number</label>
-      <input id="number" type="number" min="10" max="199"/>
+      <input id="number" type="number" min="10" max="199" placeholder="enter the age"/>
+      <select id="dropdown">
+        <option>choose one</option>
+        <option>choose two</option>
+
+      </select>
     </form>
     <script  src="js/index.js"></script>
   </body>
